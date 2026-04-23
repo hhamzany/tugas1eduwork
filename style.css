@@ -1,0 +1,50 @@
+
+        body {
+            /* 2. Ubah font-family menjadi Inter */
+            font-family: 'Inter', sans-serif; 
+            background-color: #f4f4f9;
+            padding: 20px;
+            /* Tambahan: Inter terlihat lebih bagus dengan sedikit line-height */
+            line-height: 1.5; 
+        }
+        /* Styling utama untuk tabel layout */
+        .layout-table {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            background-color: white;
+            border-collapse: collapse;
+            border: 1px solid #333;
+        }
+        .layout-table td {
+            border: 1px solid #333;
+            padding: 20px;
+        }
+        .no-border {
+            border: none !important;
+        }
+        .text-center {
+            text-align: center;
+        }
+        /* Box styling untuk biodata & portofolio */
+        .box {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .img-placeholder {
+            background-color: #d3d3d3;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            font-weight: 600; /* Menggunakan ketebalan 600 dari font Inter */
+            font-size: 24px;
+        }
+        /* Tambahan styling agar tombol terlihat lebih modern dengan font Inter */
+        button {
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+        }
+   
